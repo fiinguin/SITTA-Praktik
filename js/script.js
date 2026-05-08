@@ -90,7 +90,7 @@ logoutBtn.addEventListener('click', () => {
                 text: 'Anda telah keluar dari sistem.',
                 icon: 'info',
                 confirmButtonText: 'OK'
-            }).then(() => window.location.href = 'login.html');
+            }).then(() => window.location.href = 'index.html');
         }
     });
 });
